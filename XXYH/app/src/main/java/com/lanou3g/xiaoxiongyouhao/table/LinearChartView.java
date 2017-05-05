@@ -90,8 +90,8 @@ class LinearChartView extends View {
         drawMarkY(canvas);
         drawLineX(canvas);
         drawLineY(canvas);
-        drawPoint(canvas);
-        drawLine(canvas);
+//        drawPoint(canvas);
+//        drawLine(canvas);
 
     }
 
