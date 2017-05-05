@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:src="@mipmap/jiayou"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:text="车辆管理"
+            android:textColor="#FFF"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
+
+        <ImageView
+            android:id="@+id/activity_add_car_save_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="8dp"
+            android:src="@mipmap/save"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="车名  :"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/add_car_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center|left"
+            android:hint="请输入车名"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="品牌  :"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+
+        <Spinner
+            android:id="@+id/add_car_car_brand_sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:backgroundTint="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="车系  :"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+
+        <Spinner
+            android:id="@+id/add_car_car_series_sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:backgroundTint="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="车型  :"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+
+        <Spinner
+            android:id="@+id/add_car_car_model_sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:backgroundTint="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#a9a9a9"
+                android:text="发动机 :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:id="@+id/activity_add_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#313131"
+                android:text="001"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="21dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#a9a9a9"
+                android:text="变速器 :"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"/>
+
+
+            <TextView
+                android:id="@+id/activity_add_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#313131"
+                android:text="002"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="21dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#000">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:src="@mipmap/mine"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center|left"
+            android:text="输入加油记录"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:src="@mipmap/clock"/>
+
+
+        <ImageView
+            android:id="@+id/add_records_save_iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="7dp"
+            android:src="@mipmap/save"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#5b5b5b"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="日期"
+                    android:textColor="#fff"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_date_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center|left"
+                    android:text="这次加满油箱"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/add_records_full_cb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center|left"
+                    android:text="这次油灯亮了"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/add_records_onlight_cb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center|left"
+                    android:text="上次没有记录"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/add_records_record_cb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/add_records_number_sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="时间"
+                    android:textColor="#fff"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_time_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:hint="输入时间"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="里程"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_licheng_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|right"
+                    android:hint="元"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="单价"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_danjia_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|right"
+                    android:hint="元"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="金额"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_jine_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|right"
+                    android:hint="元"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="油量"
+                    android:textColor="#fff"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/add_records_youliang_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center|right"
+                    android:hint="元"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="#4e4e4e"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/add_records_address_sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/add_records_beizhu_et"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="备注 : "
+            android:textColor="#fff"
+            android:textColorHint="#c9c9c9"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,251 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lanou3g.xiaoxiongyouhao.fragment.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+
+    </LinearLayout>
+
+    <com.lanou3g.xiaoxiongyouhao.table.LinearChartView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="平均油耗:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="升/百公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="当前里程:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="最高油耗:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="升/百公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="平均里程:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="最低油耗:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="升/百公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="加油总量:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="升"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="最近油耗:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="升/百公里"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="里程平均:"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="公里/天"
+                android:gravity="center|left"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
